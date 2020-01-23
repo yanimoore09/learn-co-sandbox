@@ -1,0 +1,94 @@
+def greeting_python
+puts "hello python programmer"
+end
+
+def greeting_python
+puts "hello python programmer
+end" 
+
+def greeting(name)
+puts "hello, #{name}"!
+end
+
+def greeting(name)
+puts "hello #{name}"!
+end
+
+def gretting_a_person(name)
+"hello #{name}"
+end 
+
+def greetings_programmer (name , luanguge)
+puts we herd you were a grate #{name}. and also #{programmer}.
+like this
+end
+gretting_programmer ( sophie , ruby )
+greetings_programmer (tim, billy)
+====================================================================
+
+def greeting(name)
+puts "hello #{name}"
+end
+
+def greeting(name = "ruby programmer, luanguge = ruby")
+puts "hello #{name} we herd you were a grate #{luanguge}"
+programmer
+end 
+
+def greeting(name, language="Ruby")
+  puts "Hello, #{name}. We heard you are a great #{language} programmer."
+end
+( note !! )
+greeting("Sophie", "Ember.js")
+# > Hello, Sophie. We heard you are a great Ember.js programmer. 
+def greeting (name , language = ruby )
+-----------------------------------------------------------------
+def restaurant
+restaurant_name = "guys americans kitchen & bar" 
+cuisine = "americans"
+motto = "welcome to flavor town"
+end
+
+def print_name 
+puts "guy fieri"
+end
+
+#or 
+
+def return_name
+"guy fieri"
+end
+end
+
+#or both print name 
+
+def print_name_return_name
+puts "guy fieri"
+"guy fieri"
+end 
+
+def broken_print_and_return_name
+"guy fieri"
+puts "guy fieri"
+end
+
+def stylish_chef
+  best_hairstyle = "Guy Fieri"
+  return "Martha Stewart"
+  "Guy Fieri"
+end
+
+^ return key word 
+==============================================================
+arrays 
+
+famous_people = ["kim jong , yani moore , brent woods , "]
+
+famous_people << "lewis b" note to add to your arrays
+famous_people .push ("lewis b") push arrays to the back 
+famous_people .unshift ("lewis b") move arrays to the front > shovel meth 
+famous_people .pop ("lewis b") to removed from arrays
+famous_people .shift ("lewis b") t remove from the front of arrray
+to get single arrays is to indent by number starting from 0 
+famous_people [1] or [3] whatever
+famous_people .include ("lewis b") is to check true or false those names are still in my array
